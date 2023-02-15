@@ -12,7 +12,7 @@ function LastMovieInDb({infoProducts}){
                     </div>
                     <div className="card-body">
                         <div className="text-center">
-                            <img className="img-fluid px-3 px-sm-4 mt-3 mb-4" style={{width: 40 +'rem'}} src={product.image} alt={product.image}    />
+                            <img className="img-fluid px-3 px-sm-4 mt-3 mb-4" style={{width: 40 +'rem'}} src={product.imagen} alt={product.imagen}    />
                         </div>
                         <p>{product.description}</p>
                         <a className="btn btn-danger" target="_blank" rel="nofollow" href="/">Detalles</a>
